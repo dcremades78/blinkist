@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>RAMPED × Blinkist — Multi-Market Creator Growth · DE · MX · AR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,800;1,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#F4EEDF; --cream2:#EFE6D3; --card:#FFFFFF;
+  --ink:#45413A; --soft:#736C5F; --faint:#9A9183;
+  --teal:#00BFA5; --teal2:#06A88E; --tealdk:#0a8a76;
+  --orange:#F5841F; --orange2:#ff9a3d;
+  --plum:#6C63CE; --plum2:#8278e6;
+  --line:rgba(69,65,58,.12); --line2:rgba(69,65,58,.07);
+  --bad:#45413A; --slow:#CFC6B2; --good:#F5841F; --out:#00BFA5;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.disp{font-family:'Nunito',sans-serif;font-weight:900;line-height:1.05;letter-spacing:-.01em}
+em{font-style:italic;color:var(--teal2);font-weight:900}
+.wrap{max-width:1060px;margin:0 auto;padding:0 26px}
+a{color:var(--teal2);text-decoration:none}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:50;background:rgba(244,238,223,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+.brand{display:flex;align-items:center;gap:10px;font-family:'Nunito';font-weight:900;font-size:18px}
+.ring{width:24px;height:24px;border-radius:50%;border:5px solid var(--teal);border-top-color:rgba(0,191,165,.25);transform:rotate(40deg)}
+.navlinks{display:flex;gap:18px;font-size:14px;font-weight:600}
+.navlinks a{color:var(--soft)} .navlinks a:hover{color:var(--ink)}
+.tag{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+@media(max-width:980px){.navlinks{display:none}}
+
+/* SECTIONS */
+section{padding:84px 0;border-bottom:1px solid var(--line2)}
+.kick{font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--teal2);margin-bottom:18px}
+h2{font-size:clamp(30px,4.6vw,50px);margin-bottom:22px;max-width:20ch}
+.lead{font-size:19px;color:var(--soft);max-width:64ch;margin-bottom:8px}
+.grid{display:grid;gap:20px}
+.g2{grid-template-columns:1fr 1fr} .g3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:820px){.g2,.g3{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px}
+.card h3{font-size:20px;margin-bottom:10px}
+.card p{font-size:15.5px;color:var(--soft)}
+
+/* full-width section image */
+.shot{width:100%;border-radius:20px;border:1px solid var(--line);display:block;box-shadow:0 20px 50px -34px rgba(69,65,58,.5)}
+.shotwrap{margin:0 0 30px}
+.shotcap{font-size:13px;color:var(--faint);margin-top:10px;text-align:center}
+
+/* HERO */
+.hero{background:linear-gradient(165deg,#F4EEDF 0%,#E7F6F1 100%);padding:64px 0 90px;border-bottom:none}
+.hero .wrap{display:grid;grid-template-columns:1.25fr .9fr;gap:40px;align-items:center}
+@media(max-width:880px){.hero .wrap{grid-template-columns:1fr}}
+.flags{display:inline-flex;gap:8px;margin-bottom:16px}
+.flag{display:inline-block;background:var(--ink);color:#fff;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:5px 12px;border-radius:30px}
+.hero h1{font-size:clamp(34px,5.4vw,58px);margin:0 0 22px}
+.hero p{font-size:19px;color:var(--soft);max-width:54ch}
+.metabar{display:flex;flex-wrap:wrap;gap:26px;margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}
+.metabar div{min-width:90px}
+.metabar .n{font-family:'Nunito';font-weight:900;font-size:20px}
+.metabar .l{font-size:12px;color:var(--faint);font-weight:600}
+.fastcard{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:30px 26px;box-shadow:0 24px 60px -30px rgba(6,168,142,.45)}
+.fastcard .top{display:flex;justify-content:space-between;align-items:center;color:var(--soft);font-size:13px;font-weight:600;margin-bottom:14px}
+.mkrow{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px dashed var(--line)}
+.mkrow:last-child{border-bottom:none}
+.mkrow .fl{font-size:22px}
+.mkrow .nm{flex:1;font-family:'Nunito';font-weight:800;font-size:15px}
+.mkrow .nm span{display:block;font-family:'Inter';font-weight:600;font-size:12px;color:var(--soft)}
+.mkrow .vw{font-family:'Nunito';font-weight:900;font-size:17px;color:var(--teal2)}
+.fastcard .foot{font-size:12px;color:var(--faint);margin-top:14px;text-align:center;font-weight:600}
+
+.note{background:var(--cream2);border-left:4px solid var(--teal);border-radius:0 12px 12px 0;padding:18px 22px;font-size:16px;color:#5c554a;margin-top:8px}
+.note b{color:var(--ink)}
+.note.orange{border-left-color:var(--orange)}
+
+/* offer banner */
+.offer{background:linear-gradient(150deg,#0f3b34,#0a8a76);color:#fff;border-radius:24px;padding:38px 40px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center;box-shadow:0 24px 60px -34px rgba(6,168,142,.7)}
+@media(max-width:760px){.offer{grid-template-columns:1fr;text-align:center}}
+.offer .big{font-family:'Nunito';font-weight:900;font-size:54px;line-height:.95;color:#fff;white-space:nowrap}
+.offer .big small{display:block;font-size:15px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#9fe9da;margin-top:6px}
+.offer h3{font-family:'Nunito';font-weight:900;font-size:24px;color:#fff;margin-bottom:8px}
+.offer p{color:#cdeee6;font-size:16px;max-width:60ch}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+@media(max-width:820px){.steps{grid-template-columns:1fr 1fr}}
+.step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.step .num{font-family:'Nunito';font-weight:900;font-size:14px;color:#fff;background:var(--teal2);width:30px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.step h4{font-family:'Nunito';font-weight:800;font-size:16px;margin-bottom:6px}
+.step p{font-size:13.5px;color:var(--soft)}
+
+/* plan cards visual */
+.plans{display:flex;gap:14px;flex-wrap:wrap}
+.plan{flex:1;min-width:150px;border-radius:18px;padding:20px;color:#fff;font-family:'Nunito';font-weight:900;font-size:19px;min-height:120px;display:flex;align-items:flex-end;box-shadow:0 14px 30px -18px rgba(0,0,0,.4)}
+.plan small{display:block;font-family:'Inter';font-weight:600;font-size:12px;opacity:.9;margin-bottom:4px}
+.p1{background:linear-gradient(150deg,#FBA94C,#F5841F)}
+.p2{background:linear-gradient(150deg,#3fcfb6,#06A88E)}
+.p3{background:linear-gradient(150deg,#8278e6,#6C63CE)}
+
+/* building blocks panel */
+.stages{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px 28px}
+.stage{display:flex;align-items:center;gap:16px;padding:11px 0;border-bottom:1px dashed var(--line)}
+.stage:last-child{border-bottom:none}
+.stage .ic{flex:none;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;background:rgba(0,191,165,.14)}
+.stage.k .ic{background:rgba(245,132,31,.16)}
+.stage.a .ic{background:var(--cream2)}
+.stage .t{flex:1}
+.stage .t b{font-family:'Nunito';font-weight:800;font-size:15.5px}
+.stage .t span{font-size:13px;color:var(--soft);display:block}
+.stage .h{font-family:'Nunito';font-weight:900;font-size:14px;color:var(--teal2)}
+
+/* tiers */
+.tier{display:flex;align-items:center;gap:18px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin-bottom:12px}
+.tier .bar{flex:none;border-radius:10px;height:54px;display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Nunito';font-weight:900;font-size:13px;text-align:center;line-height:1.1;padding:0 6px}
+.tier .meta{flex:1}
+.tier h4{font-family:'Nunito';font-weight:800;font-size:17px;margin-bottom:2px}
+.tier p{font-size:14px;color:var(--soft)}
+.tier .role{font-size:12px;font-weight:700;color:var(--teal2);text-transform:uppercase;letter-spacing:.06em}
+
+/* angles */
+.angle{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.angle .az{font-family:'Nunito';font-weight:900;color:var(--orange);font-size:15px;margin-bottom:8px}
+.angle h4{font-family:'Nunito';font-weight:800;font-size:16.5px;margin-bottom:8px}
+.angle p{font-size:14px;color:var(--soft);margin-bottom:12px}
+.angle .quote{font-size:13.5px;font-style:italic;color:var(--ink);background:var(--cream2);border-radius:10px;padding:10px 14px}
+
+/* months / donuts */
+.months{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:820px){.months{grid-template-columns:1fr}}
+.mcard{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;text-align:center}
+.mcard .mh{font-family:'Nunito';font-weight:900;font-size:18px;margin-bottom:2px}
+.mcard .ms{font-size:13px;color:var(--soft);margin-bottom:10px;min-height:34px}
+.donut{position:relative;width:160px;height:160px;margin:0 auto}
+.donut .dc{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.donut .dc b{font-family:'Nunito';font-weight:900;font-size:24px;color:var(--teal2);line-height:1}
+.donut .dc span{font-size:10.5px;color:var(--faint);font-weight:600;max-width:80px}
+.mcard .out{margin-top:14px;font-size:13px;color:var(--soft)}
+.mcard .out b{font-family:'Nunito';font-weight:900;font-size:26px;color:var(--ink);display:block;line-height:1}
+.legend{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:24px;font-size:13px;color:var(--soft);font-weight:600}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.dot{width:12px;height:12px;border-radius:4px;display:inline-block}
+
+/* tables */
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:14.5px}
+th,td{padding:13px 16px;text-align:left;border-bottom:1px solid var(--line2)}
+th{background:var(--cream2);font-family:'Nunito';font-weight:800;font-size:13px;color:var(--ink)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:none}
+.hl td{background:rgba(0,191,165,.07);font-weight:700}
+
+/* guarantee / terms */
+.guar{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+@media(max-width:820px){.guar{grid-template-columns:1fr}}
+.gcard{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:30px;position:relative;overflow:hidden}
+.gcard .gi{font-size:30px;margin-bottom:12px;display:block}
+.gcard h3{font-family:'Nunito';font-weight:900;font-size:21px;margin-bottom:14px}
+.gcard ul{list-style:none}
+.gcard li{font-size:15px;color:var(--soft);padding:9px 0 9px 30px;position:relative;border-top:1px solid var(--line2)}
+.gcard li:first-child{border-top:none}
+.gcard li:before{content:"✓";position:absolute;left:0;top:9px;color:var(--teal2);font-weight:900}
+.gcard li b{color:var(--ink)}
+.gcard.fire{background:linear-gradient(165deg,#fff,#FFF3E6)}
+.gcard.fire li:before{color:var(--orange)}
+
+/* MARKET BLOCKS */
+.mkt-hd{display:flex;align-items:center;gap:16px;margin-bottom:8px}
+.mkt-hd .fg{font-size:40px;line-height:1}
+.mkt-hd .role{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.mkt-hd h2{margin:0;font-size:clamp(28px,4vw,44px)}
+.mkstat{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:24px 0}
+@media(max-width:820px){.mkstat{grid-template-columns:1fr 1fr}}
+.mkstat .b{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 16px;text-align:center}
+.mkstat .b .n{font-family:'Nunito';font-weight:900;font-size:28px;line-height:1}
+.mkstat .b .l{font-size:12px;color:var(--soft);font-weight:600;margin-top:6px}
+.opt{background:var(--card);border:2px solid var(--teal);border-radius:22px;padding:32px;position:relative}
+.opt .badge{position:absolute;top:-13px;left:32px;font-family:'Nunito';font-weight:900;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--teal2);padding:5px 14px;border-radius:20px}
+.opt h3{font-family:'Nunito';font-weight:900;font-size:23px;margin:6px 0 2px}
+.opt .mkt{font-size:13px;font-weight:700;color:var(--faint);text-transform:uppercase;letter-spacing:.08em;margin-bottom:18px}
+.opt .price{font-family:'Nunito';font-weight:900;font-size:40px;line-height:1}
+.opt .price small{font-size:16px;color:var(--soft);font-weight:700}
+.opt .total{font-size:15px;color:var(--soft);margin-top:8px}
+.opt .total b{color:var(--ink)}
+.opt ul{list-style:none;margin:20px 0 0;border-top:1px solid var(--line);padding-top:18px}
+.opt li{font-size:14.5px;color:var(--soft);padding:6px 0 6px 26px;position:relative}
+.opt li:before{content:"";position:absolute;left:0;top:12px;width:13px;height:13px;border-radius:50%;background:rgba(0,191,165,.2)}
+.opt li b{color:var(--ink)}
+.savetag{display:inline-block;background:var(--orange);color:#fff;font-family:'Nunito';font-weight:900;font-size:12px;padding:4px 12px;border-radius:20px;margin-left:8px;vertical-align:middle}
+.barwrap{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px 26px}
+.barwrap h4{font-family:'Nunito';font-weight:900;font-size:16px;margin-bottom:18px}
+.bchart{display:flex;align-items:flex-end;gap:26px;height:200px;padding:0 8px;border-bottom:2px solid var(--line)}
+.bcol{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+.bcol .bb{width:100%;max-width:96px;border-radius:10px 10px 0 0;display:flex;align-items:flex-start;justify-content:center;color:#fff;font-family:'Nunito';font-weight:900;font-size:15px;padding-top:10px}
+.bcol .bl{margin-top:10px;font-family:'Nunito';font-weight:800;font-size:14px}
+.bcol .bs{font-size:12px;color:var(--soft)}
+
+/* proof */
+.proof{background:var(--ink);color:#EDE7DA;border-radius:22px;padding:40px}
+.proof .kick{color:var(--orange2)}
+.proof h3{font-family:'Nunito';font-weight:900;font-size:26px;color:#fff;margin-bottom:14px}
+.proof p{color:#c9bfac;font-size:15.5px;max-width:70ch}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:28px}
+@media(max-width:820px){.stats{grid-template-columns:1fr 1fr}}
+.stat .n{font-family:'Nunito';font-weight:900;font-size:30px;color:var(--teal)}
+.stat .l{font-size:12.5px;color:#a99f8c}
+
+/* timeline */
+.tl{display:flex;gap:18px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:12px}
+.tl .tn{flex:none;font-family:'Nunito';font-weight:900;color:#fff;background:var(--teal2);width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center}
+.tl h4{font-family:'Nunito';font-weight:800;font-size:16px;margin-bottom:3px}
+.tl p{font-size:14px;color:var(--soft)}
+.disclaim{font-size:12.5px;color:var(--faint);margin-top:16px;max-width:74ch}
+
+footer{background:var(--cream2);padding:46px 0;text-align:center;border:none}
+footer .brand{justify-content:center;margin-bottom:10px}
+footer p{font-size:14px;color:var(--soft)}
+.conf{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin-top:14px}
+
+/* Ramped about / stats */
+.rstats{display:flex;flex-wrap:wrap;gap:14px;margin-top:26px}
+.rstat{flex:1;min-width:150px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 16px;text-align:center}
+.rstat .n{font-family:'Nunito';font-weight:900;font-size:30px;color:var(--teal2);line-height:1}
+.rstat .l{font-size:12.5px;color:var(--soft);font-weight:600;margin-top:6px}
+.princ h3{display:flex;align-items:center;gap:9px}
+.princ .pi{font-size:22px}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:14px}
+@media(max-width:820px){.process{grid-template-columns:1fr 1fr}}
+.pstep{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.pstep .pn{font-family:'Nunito';font-weight:900;color:#fff;background:var(--teal2);width:26px;height:26px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:12px;margin-bottom:10px}
+.pstep h4{font-family:'Nunito';font-weight:800;font-size:14.5px;margin-bottom:4px}
+.pstep p{font-size:12.5px;color:var(--soft)}
+.logos{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:12px}
+@media(max-width:820px){.logos{grid-template-columns:repeat(2,1fr)}}
+.lg{background:var(--card);border:1px solid var(--line);border-radius:14px;height:96px;display:flex;align-items:center;justify-content:center;padding:18px}
+.lg img{max-height:44px;max-width:78%;object-fit:contain;opacity:.85}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<div class="nav"><div class="wrap">
+  <div class="brand"><span class="ring"></span> RAMPED <span style="color:var(--faint);font-weight:700">×</span> Blinkist</div>
+  <div class="navlinks">
+    <a href="#opportunity">Opportunity</a>
+    <a href="#strategy">Strategy</a>
+    <a href="#angles">Content</a>
+    <a href="#arbitrage">The Engine</a>
+    <a href="#markets">3 Markets</a>
+    <a href="#offer">Our Offer</a>
+    <a href="#clients">Clients</a>
+  </div>
+</div></div>
+
+<!-- HERO -->
+<header class="hero"><div class="wrap">
+  <div>
+    <div class="flags"><span class="flag">🇩🇪 Germany</span><span class="flag">🇲🇽 Mexico</span><span class="flag">🇦🇷 Argentina</span></div>
+    <h1>Three markets, one <em>creator growth engine</em> for Blinkist.</h1>
+    <p>A performance-led influencer system, built for subscription apps — proposed across three markets at three stages of their journey. Defend your home market, scale your biggest growth opportunity, and seed the next one at maximum efficiency. Pick one, two, or run the full play.</p>
+    <div class="metabar">
+      <div><div class="n">41M+</div><div class="l"><b>Blinkist</b> users</div></div>
+      <div><div class="n">9,000+</div><div class="l">Titles · EN · DE · ES</div></div>
+      <div><div class="n">Views</div><div class="l">Guaranteed per campaign</div></div>
+      <div><div class="n">Month&nbsp;1</div><div class="l">Our fee on us</div></div>
+    </div>
+  </div>
+  <div class="fastcard">
+    <div class="top"><span>Reach per market / month</span><span>•••</span></div>
+    <div class="mkrow"><span class="fl">🇩🇪</span><div class="nm">Germany<span>$40 CPM · defend &amp; deepen</span></div><span class="vw">500K</span></div>
+    <div class="mkrow"><span class="fl">🇲🇽</span><div class="nm">Mexico<span>$20 CPM · scale</span></div><span class="vw">750K</span></div>
+    <div class="mkrow"><span class="fl">🇦🇷</span><div class="nm">Argentina<span>$10 CPM · seed</span></div><span class="vw">1.0M</span></div>
+    <div class="foot">Estimated monthly views on the working budget of each market</div>
+  </div>
+</div></header>
+
+<!-- WHO WE ARE -->
+<section id="aboutramped"><div class="wrap">
+  <div class="kick">Who We Are</div>
+  <h2>A performance influencer agency, <em>built for subscription apps.</em></h2>
+  <p class="lead">Founded in 2021, Ramped turns influencer marketing into a measurable, scalable acquisition channel — not a vanity-metrics exercise. We specialise in subscription-based apps, blending brand-building with hard performance metrics (CPA, CPI, ROAS). With offices across the US, Spain, Portugal, Brazil and Argentina, we cast and run campaigns natively in each market — including the German, Mexican and Argentine creator scenes in this proposal.</p>
+  <div class="rstats">
+    <div class="rstat"><div class="n">1,000+</div><div class="l">Campaign activations</div></div>
+    <div class="rstat"><div class="n">50+</div><div class="l">Brand partners</div></div>
+    <div class="rstat"><div class="n">20+</div><div class="l">Markets reached</div></div>
+    <div class="rstat"><div class="n">91M+</div><div class="l">Views on client campaigns</div></div>
+    <div class="rstat"><div class="n">650+</div><div class="l">Creator collaborations</div></div>
+  </div>
+</div></section>
+
+<!-- HOW WE WORK -->
+<section id="howwework"><div class="wrap">
+  <div class="kick">How We Work</div>
+  <h2>We run it all. <em>You approve every step.</em></h2>
+  <p class="lead" style="margin-bottom:30px">A transparent, end-to-end process: you stay fully in control of the brand and the budget, without doing the legwork.</p>
+  <div class="grid g3 princ">
+    <div class="card"><h3><span class="pi">🤝</span>We represent you, not the creators</h3><p>We don't work with creators on an exclusive basis — we find the ones that fit <b>Blinkist</b> best in each market. We represent <b>Blinkist</b>, which means we're always negotiating the best possible deal <b>for you</b>: no exclusivity locks, no hidden markups buried in a creator's fee.</p></div>
+    <div class="card"><h3><span class="pi">🔍</span>Total transparency</h3><p>We handle everything end-to-end — but <b>you approve every step</b>: the shortlist, the briefs, the content and the posting timing. Nothing goes live without your sign-off, and every creator cost — and its agreed CPM — is shown openly.</p></div>
+    <div class="card"><h3><span class="pi">🎬</span>Pay only for the rights you use</h3><p>We negotiate paid-media usage rights into every deal so you can amplify the winners — but <b>you only pay to license the videos that actually perform</b> and are worth boosting. No blanket rights bill for content you won't run.</p></div>
+  </div>
+  <div class="process">
+    <div class="pstep"><div class="pn">1</div><h4>Strategy session</h4><p>We build the per-market plan with you — clear goals, KPIs and targets.</p></div>
+    <div class="pstep"><div class="pn">2</div><h4>Creator briefing</h4><p>Clear talking points and creative guidelines for top-quality content.</p></div>
+    <div class="pstep"><div class="pn">3</div><h4>Negotiations</h4><p>We secure optimised CPMs and paid-media rights — best value for you.</p></div>
+    <div class="pstep"><div class="pn">4</div><h4>Performance focus</h4><p>Lower-funnel campaigns with selected creators, driving installs and trials.</p></div>
+    <div class="pstep"><div class="pn">5</div><h4>Quality content</h4><p>We review every asset for brand language, goals and compliance.</p></div>
+    <div class="pstep"><div class="pn">6</div><h4>Relationship management</h4><p>We handle all creator relationships so you can focus on your priorities.</p></div>
+    <div class="pstep"><div class="pn">7</div><h4>Optimisation &amp; insights</h4><p>Continuous optimisation plus clear reporting on every key outcome.</p></div>
+  </div>
+</div></section>
+
+<!-- OPPORTUNITY -->
+<section id="opportunity"><div class="wrap">
+  <div class="kick">01 · The Opportunity</div>
+  <h2>Knowledge is the most <em>shareable content there is.</em></h2>
+  <p class="lead" style="margin-bottom:28px">Self-improvement, productivity, money, habits, leadership — this is the native language of social media. Every day creators tell their audiences what they're reading, what changed their mind, what book they wish they'd found sooner. <b>Blinkist</b> has the library, the brand and 41M users behind it. What's missing is a creator engine that turns "I love this app" into trackable installs and subscribers — run natively in each market, not translated from one.</p>
+
+  <div class="shotwrap"><img class="shot" src="blinkist-app.png" alt="Blinkist app — read or listen to big ideas in 15 minutes"></div>
+
+  <div class="grid g2" style="margin-bottom:24px">
+    <div>
+      <div class="card" style="margin-bottom:16px"><h3>A product people already talk about</h3><p>Nobody has to "review" <b>Blinkist</b> — they live it. The 15-minute <b>Blink</b> on a commute, the daily pick, the title that unlocked an idea. The product is the content: every <b>Blink</b> is a hook, every takeaway is a post.</p></div>
+      <div class="card"><h3>Three markets, three different jobs</h3><p>The same playbook does a different thing in each market. In Germany it defends a home market full of high-LTV subscribers. In Mexico it scales an under-penetrated growth market. In Argentina it seeds a new audience at the lowest cost-per-view we can buy.</p></div>
+    </div>
+    <div class="plans">
+      <div class="plan p2"><span><small>Defend &amp; deepen</small>🇩🇪 Germany</span></div>
+      <div class="plan p1"><span><small>Scale the growth market</small>🇲🇽 Mexico</span></div>
+      <div class="plan p3"><span><small>Seed at max efficiency</small>🇦🇷 Argentina</span></div>
+    </div>
+  </div>
+  <div class="note"><b>Why these three, together.</b> Germany is a core <b>Blinkist</b> market with German-language titles already in the library. Mexico and Argentina are large, mobile-first Spanish audiences where the Spanish catalogue can travel — and where lower CPMs mean every dollar buys far more reach. Run as a set, they become a single learning system (more on that below).</div>
+</div></section>
+
+<!-- STRATEGY -->
+<section id="strategy"><div class="wrap">
+  <div class="kick">02 · The Strategy</div>
+  <h2>Don't bet on one creator size. <em>Layer them.</em></h2>
+  <p class="lead" style="margin-bottom:30px">The most common mistake is spending a whole budget on one big name — or only on cheap nano creators. Each tier does a different job. Combined, they cover the full funnel: reach at the top, conversion in the middle, authenticity and volume at the base. We build this same pyramid in each market, casting locally.</p>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><h4>Cast across tiers</h4><p>Ramped sources a mix of nano, micro and mid creators in the book, self-improvement, productivity and finance niches — native to each market.</p></div>
+    <div class="step"><div class="num">2</div><h4>Brief &amp; create</h4><p>Each creator runs a real <b>Blinkist</b> habit — a challenge, a playlist, a daily <b>Blink</b> — and produces authentic content, with paid usage rights included.</p></div>
+    <div class="step"><div class="num">3</div><h4>Concentrated launch</h4><p>Creators post in the same window. The install spike lifts App Store ranking in Education / Books — extra organic installs on top.</p></div>
+    <div class="step"><div class="num">4</div><h4>Amplify winners</h4><p>Top organic videos are boosted as paid ads. You spend media budget only on creative already proven to convert.</p></div>
+  </div>
+  <div class="grid g2" style="margin-top:24px">
+    <div class="card"><h3>Why combine sizes (and not just go big)</h3><p>A single big creator gives you one shot, one audience, one CPM. Ten layered creators give you ten audiences, ten content angles to test, and a portfolio that de-risks the campaign. If one underperforms, the budget moves — you're never all-in on a single bet.</p></div>
+    <div class="card"><h3>Why layering drives more reach</h3><p>Mid-tier creators create the awareness wave and social proof; micro creators deliver the best engagement and lowest cost per install; nano creators add authentic volume and niche reading communities. Audiences who see the same app from several creators they trust convert far better than from one big post.</p></div>
+  </div>
+</div></section>
+
+<!-- CREATOR MIX -->
+<section id="mix"><div class="wrap">
+  <div class="kick">03 · The Creator Mix</div>
+  <h2>A pyramid, not a billboard. <em>Each tier has a job.</em></h2>
+  <p class="lead" style="margin-bottom:30px">This is the target shape per market. Exact counts and fees are confirmed once we scout each market — but the logic stays the same: a wide, efficient base, a strong converting middle, and a few larger names for reach and credibility.</p>
+
+  <div class="shotwrap"><img class="shot" src="blinkist-pyramid.png" alt="A pyramid, not a billboard — mid-tier, micro and nano creators each have a job"></div>
+
+  <div class="tier">
+    <div class="bar" style="width:120px;background:var(--orange)">MID-TIER<br>100k–500k</div>
+    <div class="meta"><div class="role">Reach &amp; credibility</div><h4>The Reach Driver — 1–2 creators</h4><p>Big awareness wave and instant social proof. A respected "books / ideas / productivity" voice tells the audience "this is the real thing." Highest cost, lowest volume — used sparingly to anchor the launch.</p></div>
+  </div>
+  <div class="tier">
+    <div class="bar" style="width:150px;background:var(--teal2)">MICRO<br>50k–100k</div>
+    <div class="meta"><div class="role">The conversion workhorse</div><h4>The Performance Core — 3–4 creators</h4><p>The best balance of reach, trust and cost per install. Engaged self-improvement, study and finance audiences with real intent. This is where most installs and subscribers come from.</p></div>
+  </div>
+  <div class="tier">
+    <div class="bar" style="width:185px;background:var(--teal)">NANO<br>10k–50k</div>
+    <div class="meta"><div class="role">Authenticity &amp; volume</div><h4>The Trust Layer — 5–7 creators</h4><p>Cheapest cost per install, highest authenticity. "A friend who actually reads." Drives word-of-mouth and produces a large, cheap content library to test angles and feed paid ads.</p></div>
+  </div>
+</div></section>
+
+<!-- CONTENT ANGLES -->
+<section id="angles"><div class="wrap">
+  <div class="kick">04 · Content Angles</div>
+  <h2>Six hypotheses. <em>One launch to find the winner.</em></h2>
+  <p class="lead" style="margin-bottom:30px">We spread the brief across angles, then let data pick the message that drives installs. Paid media scales the one that wins. Each angle is localised — the hook that works in Berlin isn't the one that works in Buenos Aires.</p>
+  <div class="grid g2" style="align-items:start;margin-bottom:24px">
+    <div class="grid g2" style="grid-template-columns:1fr 1fr">
+      <div class="angle"><div class="az">A</div><h4>The 15-minute book</h4><p>The category's killer hook — a famous bestseller, distilled while you commute. Audio-first, a format competitors of the printed word can't match.</p><div class="quote">"I 'read' this bestseller in 15 minutes on the way to work."</div></div>
+      <div class="angle"><div class="az">B</div><h4>The Blinkist challenge</h4><p>One title a day for 7 days — a built-in content series. One creator, multiple posts, a visible before/after in what they know.</p><div class="quote">"1 book a day for a week. Here's what it did to my brain."</div></div>
+      <div class="angle"><div class="az">C</div><h4>The doomscroll swap</h4><p>Trade 15 minutes of scrolling for 15 minutes of a book. Speaks straight to screen-time guilt — a universal, highly shareable tension.</p><div class="quote">"I swapped my morning scroll for one <b>Blink</b>. Two weeks later…"</div></div>
+      <div class="angle"><div class="az">D</div><h4>The book everyone fakes</h4><p>The social-currency hook: the titles people pretend to have read. <b>Blinkist</b> lets you actually hold the conversation.</p><div class="quote">"The 5 books everyone quotes but nobody finished — done in an hour."</div></div>
+    </div>
+    <div class="stages">
+      <div style="font-family:'Nunito';font-weight:900;font-size:16px;margin-bottom:10px">In-app building blocks — the content writes itself</div>
+      <div class="stage"><span class="ic">⏱️</span><div class="t"><b>The 15-min Blink</b><span>A whole book, one sitting</span></div><span class="h">Hook</span></div>
+      <div class="stage"><span class="ic">🎧</span><div class="t"><b>Audio mode</b><span>"Listen while you…" content</span></div><span class="h">Native</span></div>
+      <div class="stage"><span class="ic">💡</span><div class="t"><b>Key insight cards</b><span>Screenshot-ready takeaways</span></div><span class="h">Shareable</span></div>
+      <div class="stage k"><span class="ic">📅</span><div class="t"><b>Daily pick</b><span>A reason to open it every day</span></div><span class="h">Habit</span></div>
+      <div class="stage a"><span class="ic">📚</span><div class="t"><b>Curated playlists</b><span>"5 <b>Blinks</b> to get better at money"</span></div><span class="h">Depth</span></div>
+      <div class="stage a"><span class="ic">⭐</span><div class="t"><b>Shortcasts &amp; guides</b><span>Original, beyond the book</span></div><span class="h">Proof</span></div>
+    </div>
+  </div>
+  <div class="grid g2">
+    <div class="angle"><div class="az">E</div><h4>The skill sprint</h4><p>A goal-led playlist for one outcome — localised per market: <b>persönliche Finanzen / Karriere</b> in Germany, <b>finanzas personales y emprendimiento</b> in Mexico &amp; Argentina, where money and entrepreneurship content over-performs.</p><div class="quote">"I gave myself 7 <b>Blinks</b> to get smarter about money. Here's the playlist."</div></div>
+    <div class="angle"><div class="az">F</div><h4>The realistic, busy-life angle</h4><p>Not a productivity guru — a normal person fitting learning into a packed schedule. Relatable, drives free trials.</p><div class="quote">"Reading more with a full-time job and a commute — how I actually do it."</div></div>
+  </div>
+</div></section>
+
+<!-- THE ARBITRAGE ENGINE (signature idea) -->
+<section id="arbitrage"><div class="wrap">
+  <div class="kick">05 · The Original Idea</div>
+  <h2>The three markets aren't three campaigns. <em>They're one engine.</em></h2>
+  <p class="lead" style="margin-bottom:24px">Here's the move most agencies miss. Because CPMs fall as you go from Germany to Mexico to Argentina, <b>every dollar buys 2× the reach in Mexico and 4× in Argentina.</b> So we use the cheap markets as a live creative lab — and feed the winners upstream to where each install is worth the most.</p>
+
+  <div class="shotwrap"><img class="shot" src="blinkist-engine.png" alt="Three markets, one growth engine — test in Argentina, scale in Mexico, deploy in Germany"></div>
+
+  <div class="grid g3" style="margin-bottom:24px">
+    <div class="card"><h3>🧪 Test cheap in Argentina</h3><p>At a $10 CPM, $10k buys ~1,000,000 views. That's the cheapest place on earth to find out which hook, which angle and which creator format actually makes people install — fast, and on real audiences.</p></div>
+    <div class="card"><h3>📈 Validate &amp; scale in Mexico</h3><p>The angles that win in Argentina get re-cast with Mexican creators at a $20 CPM. A huge, under-penetrated Spanish market — same language, proven creative, half the guesswork.</p></div>
+    <div class="card"><h3>🏆 Deploy the winners in Germany</h3><p>By the time budget hits the $40 CPM home market, you're not guessing. You're buying proven creative in front of your highest-LTV subscribers, where it pays back hardest.</p></div>
+  </div>
+  <div class="note orange"><b>The result: learning compounds across borders.</b> Run alone, each market is a standalone buy. Run together, Argentina's cheap reach de-risks Mexico, and Mexico de-risks Germany. You pay the lowest price to learn and the highest price only for creative that's already proven to convert.</div>
+</div></section>
+
+<!-- WHY 3 MONTHS -->
+<section id="why3"><div class="wrap">
+  <div class="kick">06 · Why 3 Months</div>
+  <h2>One month buys data. <em>Three months buy results.</em></h2>
+  <p class="lead" style="margin-bottom:14px">A single month can't tell you who your best creators are — you find out as the data comes in. The 3-month system turns that learning into compounding efficiency: spread, then reallocate, then scale the winners. The same curve repeats in every market.</p>
+
+  <div class="shotwrap"><img class="shot" src="blinkist-3months.png" alt="One month buys data, three months buy results — Test, Optimize, Scale"></div>
+
+  <div class="note" style="margin-bottom:30px"><b>How to read the charts:</b> each donut shows how budget is split across creators — <b style="color:#06A88E">Outstanding</b>, <b style="color:#c9670f">Good</b>, <b>Slow</b>, <b>Bad</b>. The teal centre number is the budget going to your <em>best</em> creators; the figure underneath is the share of new <em>subscribers</em> they drive. Watch the budget concentrate as results climb.</div>
+
+  <div class="months">
+    <div class="mcard">
+      <div class="mh">Month 1 — Learn</div>
+      <div class="ms">Budget spread evenly. We don't know the winners yet.</div>
+      <div class="donut">
+        <svg width="160" height="160" viewBox="0 0 140 140">
+          <circle cx="70" cy="70" r="56" fill="none" stroke="#00BFA5" stroke-width="22" stroke-dasharray="84.45 267.41" transform="rotate(-90.00 70 70)"/>
+          <circle cx="70" cy="70" r="56" fill="none" stroke="#F5841F" stroke-width="22" stroke-dasharray="98.52 253.34" transform="rotate(-3.60 70 70)"/>
+          <circle cx="70" cy="70" r="56" fill="none" stroke="#CFC6B2" stroke-width="22" stroke-dasharray="56.30 295.56" transform="rotate(97.20 70 70)"/>
+          <circle cx="70" cy="70" r="56" fill="none" stroke="#45413A" stroke-width="22" stroke-dasharray="112.59 239.26" transform="rotate(154.80 70 70)"/>
+        </svg>
+        <div class="dc"><b>24%</b><span>budget to top creators</span></div>
+      </div>
+      <div class="out"><b>64%</b>of subscribers already come from the top creators</div>
+    </div>
+    <div class="mcard">
+      <div class="mh">Month 2 — Reallocate</div>
+      <div class="ms">Shift spend toward proven performers. Cut the losers.</div>
+      <div class="donut">
+        <svg width="160" height="160" viewBox="0 0 140 140">
+          <circle cx="70" cy="70" r="56" fill="none" stroke="#00BFA5" stroke-width="22" stroke-dasharray="123.15 228.71" transform="rotate(-90.00 70 70)"/>
+          <circle cx="70" cy="70" r="56" fill="none" stroke="#F5841F" stroke-width="22" stroke-dasharray="105.56 246.30" transform="rotate(36.00 70 70)"/>
+          <circle cx="70" cy="70" r="56" fill="none" stroke="#CFC6B2" stroke-width="22" stroke-dasharray="42.22 309.64" transform="rotate(144.00 70 70)"/>
+          <circle cx="70" cy="70" r="56" fill="none" stroke="#45413A" stroke-width="22" stroke-dasharray="80.93 270.93" transform="rotate(187.20 70 70)"/>
+        </svg>
+        <div class="dc"><b>35%</b><span>budget to top creators</span></div>
+      </div>
+      <div class="out"><b>69%</b>of subscribers from the top creators</div>
+    </div>
+    <div class="mcard">
+      <div class="mh">Month 3 — Scale</div>
+      <div class="ms">Concentrate budget on the winners. Efficiency peaks.</div>
+      <div class="donut">
+        <svg width="160" height="160" viewBox="0 0 140 140">
+          <circle cx="70" cy="70" r="56" fill="none" stroke="#00BFA5" stroke-width="22" stroke-dasharray="182.97 168.89" transform="rotate(-90.00 70 70)"/>
+          <circle cx="70" cy="70" r="56" fill="none" stroke="#F5841F" stroke-width="22" stroke-dasharray="105.56 246.30" transform="rotate(97.20 70 70)"/>
+          <circle cx="70" cy="70" r="56" fill="none" stroke="#CFC6B2" stroke-width="22" stroke-dasharray="45.74 306.12" transform="rotate(205.20 70 70)"/>
+          <circle cx="70" cy="70" r="56" fill="none" stroke="#45413A" stroke-width="22" stroke-dasharray="17.59 334.27" transform="rotate(252.00 70 70)"/>
+        </svg>
+        <div class="dc"><b>52%</b><span>budget to top creators</span></div>
+      </div>
+      <div class="out"><b>77%</b>of subscribers from the top creators</div>
+    </div>
+  </div>
+  <div class="legend">
+    <span><span class="dot" style="background:var(--out)"></span>Outstanding</span>
+    <span><span class="dot" style="background:var(--good)"></span>Good</span>
+    <span><span class="dot" style="background:var(--slow)"></span>Slow</span>
+    <span><span class="dot" style="background:var(--bad)"></span>Bad</span>
+  </div>
+  <div class="note" style="margin-top:26px"><b>The portfolio gives you the data. The data gives you the criteria. The system gives you scale.</b> By Month 3, more than half the budget sits behind creators we've proven convert — and cost per subscriber drops month over month. That compounding is impossible in a one-off campaign.</div>
+</div></section>
+
+<!-- GUARANTEE & TERMS -->
+<section id="guarantee"><div class="wrap">
+  <div class="kick">07 · Guarantee &amp; Terms</div>
+  <h2>The risk sits with us, <em>not with you.</em></h2>
+  <p class="lead" style="margin-bottom:30px">This is what makes the model safe to try in every market: you don't pre-fund anything, you only pay for work that actually goes live, and every campaign carries a guaranteed view commitment.</p>
+  <div class="guar">
+    <div class="gcard fire">
+      <span class="gi">🔥</span>
+      <h3>Guaranteed views</h3>
+      <ul>
+        <li>We agree a <b>minimum number of views</b> per campaign up front — so performance is committed, not hoped for.</li>
+        <li>If a creator's content <b>doesn't hit the agreed views</b>, we reshoot or repost until it does.</li>
+        <li>If it still falls short, <b>you don't pay for that creator.</b> The view floor protects your spend.</li>
+        <li>Guaranteed views give you a known reach baseline to plan installs and subscribers around.</li>
+      </ul>
+    </div>
+    <div class="gcard">
+      <span class="gi">🧾</span>
+      <h3>How you pay — no upfront risk</h3>
+      <ul>
+        <li><b>Invoiced at the end of each month</b> — never before.</li>
+        <li>You only pay for <b>content that has actually been published.</b> Posts that don't go live aren't billed.</li>
+        <li><b>No advance payment, no deposit.</b> Ramped fronts and manages the creator commitments.</li>
+        <li>Monthly cycle means you can review performance before continuing into the next month — per market.</li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+<!-- ========================= THE THREE MARKETS ========================= -->
+<section id="markets" style="background:var(--cream2)"><div class="wrap">
+  <div class="kick">08 · The Three Markets</div>
+  <h2>Pick your play. <em>Each one priced and ready.</em></h2>
+  <p class="lead" style="margin-bottom:24px">Three self-contained 3-month programs, presented in full below — Germany, then Mexico, then Argentina. Each shows its role, its CPM, the reach it buys and a clear all-in number. Run one, run two, or run all three as the engine.</p>
+  <table>
+    <thead><tr><th>Market</th><th>Role</th><th class="n">CPM</th><th class="n">Working budget / mo</th><th class="n">Est. views / mo</th><th class="n">Reach per $1k</th><th class="n">All-in / mo</th></tr></thead>
+    <tbody>
+      <tr><td>🇩🇪 Germany</td><td>Defend &amp; deepen</td><td class="n">$40</td><td class="n">$20,000</td><td class="n">~500,000</td><td class="n">25,000</td><td class="n">$25,000</td></tr>
+      <tr><td>🇲🇽 Mexico</td><td>Scale</td><td class="n">$20</td><td class="n">$15,000</td><td class="n">~750,000</td><td class="n">50,000</td><td class="n">$18,750</td></tr>
+      <tr><td>🇦🇷 Argentina</td><td>Seed</td><td class="n">$10</td><td class="n">$10,000</td><td class="n">~1,000,000</td><td class="n">100,000</td><td class="n">$12,500</td></tr>
+    </tbody>
+  </table>
+  <p class="disclaim">All-in / month = working budget + 25% Ramped management fee. Reach is modelled as (working budget ÷ CPM) × 1,000 and is an estimate, not a guarantee; the guaranteed-views floor is agreed per campaign. Month 1 management fee is waived in every market — see Our Offer.</p>
+  <div class="note orange" style="margin-top:18px"><b>A note on the CPMs.</b> The CPMs shown here are <b>estimates based on Ramped's experience</b> in each market — the final figures are confirmed during creator scouting. Crucially, the agreed CPM is specified <b>up front, per individual creator</b>, before anything goes live, so you always know exactly what you are paying for each placement.</div>
+
+  <div class="barwrap" style="margin-top:26px">
+    <h4>What each dollar buys — estimated views per $1,000 of working budget</h4>
+    <div class="bchart">
+      <div class="bcol"><div class="bb" style="height:25%;background:var(--teal2)">25K</div><div class="bl">🇩🇪 Germany</div><div class="bs">$40 CPM</div></div>
+      <div class="bcol"><div class="bb" style="height:50%;background:var(--orange)">50K</div><div class="bl">🇲🇽 Mexico</div><div class="bs">$20 CPM</div></div>
+      <div class="bcol"><div class="bb" style="height:100%;background:var(--plum)">100K</div><div class="bl">🇦🇷 Argentina</div><div class="bs">$10 CPM</div></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- GERMANY -->
+<section id="de"><div class="wrap">
+  <div class="mkt-hd"><span class="fg">🇩🇪</span><div><div class="role" style="color:var(--teal2)">Market 1 · Defend &amp; deepen</div><h2>Germany — protect the home market.</h2></div></div>
+  <p class="lead" style="margin-bottom:8px">Germany is a core <b>Blinkist</b> market: a German-language library that's already built, a mature audience, and the highest-LTV subscribers of the three. Here the job isn't discovery — it's staying top-of-mind against every other app fighting for the same feed, and converting consideration into paid subscriptions. We cast German-native creators in books, productivity, business and personal-growth.</p>
+  <div class="mkstat">
+    <div class="b"><div class="n" style="color:var(--teal2)">$40</div><div class="l">CPM (premium market)</div></div>
+    <div class="b"><div class="n" style="color:var(--teal2)">$20,000</div><div class="l">Working budget / mo</div></div>
+    <div class="b"><div class="n" style="color:var(--teal2)">~500K</div><div class="l">Est. views / mo</div></div>
+    <div class="b"><div class="n" style="color:var(--teal2)">~1.5M</div><div class="l">Est. views over 3 mo</div></div>
+  </div>
+  <div class="grid g2" style="align-items:start">
+    <div class="opt" style="border-color:var(--teal)">
+      <span class="badge">🇩🇪 Germany · 3 months</span>
+      <h3><b>Blinkist</b> Growth Engine — Germany</h3>
+      <div class="mkt">Defend &amp; deepen</div>
+      <div class="price">$25,000 <small>/ month all-in</small></div>
+      <div class="total">$20,000 working budget + $5,000 Ramped fee (25%). Standard 3-month total <b>$75,000</b>.</div>
+      <div class="total" style="margin-top:6px;color:var(--ink);font-weight:700">With Month 1 fee waived: <b>$70,000</b> <span class="savetag">save $5,000</span></div>
+      <ul>
+        <li><b>$20,000</b> working budget — creator fees, usage rights, promo codes, tracking links</li>
+        <li><b>+ 25% Ramped fee ($5,000/mo)</b> — casting, strategy, briefing, negotiation, review, weekly reporting</li>
+        <li>German-native layered roster: nano + micro + mid-tier</li>
+        <li><b>Month 1 management fee = $0</b> (our offer)</li>
+        <li><b>Guaranteed views</b>; billed month-end, only for published content</li>
+      </ul>
+    </div>
+    <div>
+      <div class="card" style="margin-bottom:16px"><h3>Why Germany is worth the premium CPM</h3><p>A $40 CPM buys less raw reach — but in front of the audience that subscribes and renews. Defending the home market protects the revenue base while the LATAM markets do the growth work.</p></div>
+      <div class="card"><h3>What we'd test here first</h3><p>Proven angles from the cheaper markets land here last (see The Engine) — but day one we lean on Angle A (the 15-minute book), the skill-sprint on Karriere &amp; Finanzen, and respected German "books/ideas" creators for instant credibility.</p></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- MEXICO -->
+<section id="mx"><div class="wrap">
+  <div class="mkt-hd"><span class="fg">🇲🇽</span><div><div class="role" style="color:var(--orange)">Market 2 · Scale the growth market</div><h2>Mexico — your biggest room to grow.</h2></div></div>
+  <p class="lead" style="margin-bottom:8px">Mexico is a large, young, mobile-first Spanish-speaking market where <b>Blinkist's</b> Spanish catalogue can travel and penetration is still low. A $20 CPM means every dollar reaches twice as far as in Germany — so the working budget goes further and the install math gets friendlier. Self-improvement, <em>finanzas personales</em> and <em>emprendimiento</em> content is enormous here. We cast Mexican-native creators across the same pyramid.</p>
+  <div class="mkstat">
+    <div class="b"><div class="n" style="color:var(--orange)">$20</div><div class="l">CPM (efficient reach)</div></div>
+    <div class="b"><div class="n" style="color:var(--orange)">$15,000</div><div class="l">Working budget / mo</div></div>
+    <div class="b"><div class="n" style="color:var(--orange)">~750K</div><div class="l">Est. views / mo</div></div>
+    <div class="b"><div class="n" style="color:var(--orange)">~2.25M</div><div class="l">Est. views over 3 mo</div></div>
+  </div>
+  <div class="grid g2" style="align-items:start">
+    <div class="opt" style="border-color:var(--orange)">
+      <span class="badge" style="background:var(--orange)">🇲🇽 Mexico · 3 months</span>
+      <h3><b>Blinkist</b> Growth Engine — Mexico</h3>
+      <div class="mkt">Scale the growth market</div>
+      <div class="price">$18,750 <small>/ month all-in</small></div>
+      <div class="total">$15,000 working budget + $3,750 Ramped fee (25%). Standard 3-month total <b>$56,250</b>.</div>
+      <div class="total" style="margin-top:6px;color:var(--ink);font-weight:700">With Month 1 fee waived: <b>$52,500</b> <span class="savetag">save $3,750</span></div>
+      <ul>
+        <li><b>$15,000</b> working budget — creator fees, usage rights, promo codes, tracking links</li>
+        <li><b>+ 25% Ramped fee ($3,750/mo)</b> — casting, strategy, briefing, negotiation, review, weekly reporting</li>
+        <li>Mexican-native layered roster: nano + micro + mid-tier</li>
+        <li><b>Month 1 management fee = $0</b> (our offer)</li>
+        <li><b>Guaranteed views</b>; billed month-end, only for published content</li>
+      </ul>
+    </div>
+    <div>
+      <div class="card" style="margin-bottom:16px"><h3>Why Mexico scales fastest</h3><p>Twice the reach per dollar of Germany, a Spanish catalogue that's ready, and a young audience that lives on short-form video. The cheapest large market to turn awareness into a subscriber base at volume.</p></div>
+      <div class="card"><h3>What we'd test here first</h3><p>The angles validated in Argentina, re-cast with Mexican creators — plus the money/entrepreneurship skill-sprint, which consistently over-indexes in the region. Mexico is where a proven hook turns into real scale.</p></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ARGENTINA -->
+<section id="ar"><div class="wrap">
+  <div class="mkt-hd"><span class="fg">🇦🇷</span><div><div class="role" style="color:var(--plum)">Market 3 · Seed at max efficiency</div><h2>Argentina — the cheapest place to learn.</h2></div></div>
+  <p class="lead" style="margin-bottom:8px">Argentina has a famously strong creator scene and the lowest CPM of the three. At $10, $10,000 buys roughly a million views a month — the most cost-effective place anywhere to discover which hooks, angles and creator formats actually drive installs. It seeds a fresh audience and doubles as the creative R&D lab that feeds Mexico and Germany. We cast Argentine-native creators across the pyramid.</p>
+  <div class="mkstat">
+    <div class="b"><div class="n" style="color:var(--plum)">$10</div><div class="l">CPM (max efficiency)</div></div>
+    <div class="b"><div class="n" style="color:var(--plum)">$10,000</div><div class="l">Working budget / mo</div></div>
+    <div class="b"><div class="n" style="color:var(--plum)">~1.0M</div><div class="l">Est. views / mo</div></div>
+    <div class="b"><div class="n" style="color:var(--plum)">~3.0M</div><div class="l">Est. views over 3 mo</div></div>
+  </div>
+  <div class="grid g2" style="align-items:start">
+    <div class="opt" style="border-color:var(--plum)">
+      <span class="badge" style="background:var(--plum)">🇦🇷 Argentina · 3 months</span>
+      <h3><b>Blinkist</b> Growth Engine — Argentina</h3>
+      <div class="mkt">Seed at max efficiency</div>
+      <div class="price">$12,500 <small>/ month all-in</small></div>
+      <div class="total">$10,000 working budget + $2,500 Ramped fee (25%). Standard 3-month total <b>$37,500</b>.</div>
+      <div class="total" style="margin-top:6px;color:var(--ink);font-weight:700">With Month 1 fee waived: <b>$35,000</b> <span class="savetag">save $2,500</span></div>
+      <ul>
+        <li><b>$10,000</b> working budget — creator fees, usage rights, promo codes, tracking links</li>
+        <li><b>+ 25% Ramped fee ($2,500/mo)</b> — casting, strategy, briefing, negotiation, review, weekly reporting</li>
+        <li>Argentine-native layered roster: nano + micro + mid-tier</li>
+        <li><b>Month 1 management fee = $0</b> (our offer)</li>
+        <li><b>Guaranteed views</b>; billed month-end, only for published content</li>
+      </ul>
+    </div>
+    <div>
+      <div class="card" style="margin-bottom:16px"><h3>Why start the learning here</h3><p>Four times the reach per dollar of Germany. At ~1M views/month you gather a statistically meaningful read on what converts in weeks — the cheapest creative testing budget you'll ever spend.</p></div>
+      <div class="card"><h3>The R&amp;D dividend</h3><p>Every winning angle found in Argentina is portable to Mexico (same language) and Germany (same logic). The lowest-cost market quietly de-risks the two more expensive ones.</p></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- OUR OFFER -->
+<section id="offer"><div class="wrap">
+  <div class="kick">09 · Our Offer</div>
+  <h2>We want to work with Blinkist. <em>So we're putting skin in the game.</em></h2>
+  <p class="lead" style="margin-bottom:26px">We've wanted <b>Blinkist</b> as a partner for a while. To make starting easy, we're waiving <b>100% of the Ramped management fee for the first month</b> — in whichever market(s) you choose. You only cover the working budget in Month 1; our team's work that month is on us.</p>
+  <div class="offer" style="margin-bottom:26px">
+    <div class="big">Month 1<small>Ramped fee — free</small></div>
+    <div>
+      <h3>Your management fee, on us, for the first month.</h3>
+      <p>It means you can see real creators, real content and real reach before you pay us a cent of fee. The working budget still drives the campaign in full — we're simply absorbing our own fee while you judge the results.</p>
+    </div>
+  </div>
+  <table>
+    <thead><tr><th>Market</th><th class="n">Standard 3-mo</th><th class="n">With Month 1 fee waived</th><th class="n">You save</th></tr></thead>
+    <tbody>
+      <tr><td>🇩🇪 Germany</td><td class="n">$75,000</td><td class="n">$70,000</td><td class="n">$5,000</td></tr>
+      <tr><td>🇲🇽 Mexico</td><td class="n">$56,250</td><td class="n">$52,500</td><td class="n">$3,750</td></tr>
+      <tr><td>🇦🇷 Argentina</td><td class="n">$37,500</td><td class="n">$35,000</td><td class="n">$2,500</td></tr>
+      <tr class="hl"><td>All three (the Engine)</td><td class="n">$168,750</td><td class="n">$157,500</td><td class="n">$11,250</td></tr>
+    </tbody>
+  </table>
+  <p class="disclaim">Month 1 waiver applies to the Ramped management fee only; the working budget is unaffected and still funds the campaign in full. Standard totals assume the fee applies in all three months. Per market, billed at month-end, only for published content.</p>
+</div></section>
+
+<!-- PROOF -->
+<section><div class="wrap">
+  <div class="proof">
+    <div class="kick">10 · Proof It Works</div>
+    <h3>We've driven app installs at scale — in audio, learning and health.</h3>
+    <p>Audio and learning brands already trust Ramped: <b>Audible</b> and <b>ABA English</b> (language learning) sit on our roster — the categories closest to <b>Blinkist</b>. And for Flo Health, one of the world's leading health apps, we ran a UGC-led influencer campaign across LATAM and the US using micro and nano creators, with every asset produced for paid amplification — the exact model proposed here: authentic creators, clear brief, concentrated launch, scale the winners.</p>
+    <div class="stats">
+      <div class="stat"><div class="n">78.7M+</div><div class="l">Views · Flo Health campaign</div></div>
+      <div class="stat"><div class="n">$2.89</div><div class="l">CPM · 42% below industry avg</div></div>
+      <div class="stat"><div class="n">117%</div><div class="l">ROAS on brand campaigns</div></div>
+      <div class="stat"><div class="n">88%</div><div class="l">Videos passed 50K views</div></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- TRUSTED BY -->
+<section id="clients"><div class="wrap">
+  <div class="kick">Trusted By</div>
+  <h2>The brands that <em>got Ramped.</em></h2>
+  <p class="lead" style="margin-bottom:8px">From global names like Audible and Johnson's to leading apps like Flo Health, Ada Health, Jodel and Tandem — Ramped drives acquisition for brands that live or die by performance.</p>
+  <div class="logos">
+    <div class="lg"><img src="https://cdn.prod.website-files.com/63e6cff48b0aad610d9d828c/63fdf9bd91b911d284472061_1280px-Audible_logo.svg.png" alt="Audible"></div>
+    <div class="lg"><img src="https://cdn.prod.website-files.com/63e6cff48b0aad610d9d828c/63fdfc140b0316805732140f_johnsons-logo-vector.png" alt="Johnson's"></div>
+    <div class="lg"><img src="https://cdn.prod.website-files.com/63e6cff48b0aad610d9d828c/67486261a41e35885d9f4371_FLO_logo_h%20(1).png" alt="Flo Health"></div>
+    <div class="lg"><img src="https://cdn.prod.website-files.com/63e6cff48b0aad610d9d828c/63fe43ea16b231d86b0c5c6f_Ada-Health.png" alt="Ada Health"></div>
+    <div class="lg"><img src="https://cdn.prod.website-files.com/63e6cff48b0aad610d9d828c/63ebd18dd6635b31cb000fd8_61640879750b6b2decd6f090_jodel_new_vertical_logo_orange-p-500.png" alt="Jodel"></div>
+    <div class="lg"><img src="https://cdn.prod.website-files.com/63e6cff48b0aad610d9d828c/63fe43eaddeb9bbb6f0fa5c3_Tandem_logo.png" alt="Tandem"></div>
+    <div class="lg"><img src="https://cdn.prod.website-files.com/63e6cff48b0aad610d9d828c/63fdf9bd914bbf77cc1c956a_5f7a480ea19c761bd271c175_rainbow%20%2B%20black%20Aura%20text.png" alt="Aura"></div>
+    <div class="lg"><img src="https://cdn.prod.website-files.com/63e6cff48b0aad610d9d828c/63e6e6b5476e8d1c31ffd06f_ABA_NewLogo_Horizontal_200x60_2x.webp" alt="ABA English"></div>
+    <div class="lg"><img src="https://cdn.prod.website-files.com/63e6cff48b0aad610d9d828c/67486dacf0bffbb45d81bf09_belo-full-color.png" alt="Belo"></div>
+    <div class="lg"><img src="https://cdn.prod.website-files.com/63e6cff48b0aad610d9d828c/67486261f3637a2be70bbd29_MODO%20(PRINCIPAL)%20Primary%20Default.png" alt="MODO"></div>
+    <div class="lg"><img src="https://cdn.prod.website-files.com/63e6cff48b0aad610d9d828c/67486db824c958243bd1970e_Copy%20of%20LOGO-PAYWAY-TRANSPARENTE-AZUL%20(1).png" alt="Payway"></div>
+    <div class="lg"><img src="https://cdn.prod.website-files.com/63e6cff48b0aad610d9d828c/63fdf9bc627d0e1835a6227d_logo-bplay-rios.png" alt="Bplay"></div>
+  </div>
+  <p class="disclaim">Selected client logos. Full case references available on request.</p>
+</div></section>
+
+<!-- NEXT STEPS -->
+<section id="next"><div class="wrap">
+  <div class="kick">11 · Next Steps</div>
+  <h2>Briefed and casting <em>within two weeks.</em></h2>
+  <div style="margin-top:26px">
+    <div class="tl"><div class="tn">1</div><div><h4>Choose your market(s)</h4><p>Germany, Mexico, Argentina — one, two, or the full three-market Engine. Each is priced and ready, with Month 1 fee waived.</p></div></div>
+    <div class="tl"><div class="tn">2</div><div><h4>Share app access &amp; guidelines</h4><p>Access for briefing, plus tone of voice, claims rules, and the title catalogue per language we should feature.</p></div></div>
+    <div class="tl"><div class="tn">3</div><div><h4>Align on tracking</h4><p>We set up attribution with whatever MMP you use (Adjust, AppsFlyer, Singular) — or, if there's none in place, with promo codes, unique links and store analytics. Nothing assumed.</p></div></div>
+    <div class="tl"><div class="tn">4</div><div><h4>Approve the creator shortlist</h4><p>Ramped presents candidates across all tiers, native to each market. You confirm the final roster before any outreach.</p></div></div>
+    <div class="tl"><div class="tn">5</div><div><h4>Launch Month 1 &amp; report</h4><p>Concentrated launch, weekly performance snapshots, then reallocate into Month 2 and scale the winners in Month 3.</p></div></div>
+  </div>
+</div></section>
+
+<footer>
+  <div class="brand"><span class="ring"></span> RAMPED <span style="color:var(--faint)">×</span> Blinkist</div>
+  <p>David Cremades · <a href="mailto:david@getramped.com">david@getramped.com</a> · <a href="https://getramped.com">getramped.com</a></p>
+  <p class="conf">RAMPED × Blinkist · DE · MX · AR · Confidential © 2026</p>
+</footer>
+
+</body>
+</html>
